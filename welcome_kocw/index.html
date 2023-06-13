@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Metadata -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Assets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Site info -->
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <title>Welcome to Project Unison</title>
+    <!-- Styles -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap');
+		@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+        body {
+            background-color: #000000;
+			color: white;
+            font-family: 'Outfit', sans-serif;
+            text-align: center;
+            font-size: larger; 
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            padding-top: 20px;
+			color: #6c79da;
+            font-weight: bold;
+        }
+        
+        img {
+            padding-top: 100px;
+            padding-bottom: 80px;
+        }
+
+        .text-maincolor {
+            color: #6c79da;
+        }
+
+        .link-color {
+            color: #6c79da;
+        }
+    </style>
+	<!--- Scripts --->
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			var elems = document.querySelectorAll('.sidenav');
+			var instances = M.Sidenav.init(elems, {});
+		});
+	</script>
+</head>
+<body>
+	<nav>
+		<div class="nav-wrapper black">
+			<a href="#" class="brand-logo center"></a>
+			<a href="#" data-target="navbar" class="sidenav-trigger"><i class="material-icons text-maincolor">menu</i></a>
+			<ul class="right hide-on-med-and-down">
+				<li><a href="https://codeberg.org/Project-Unison/Project-Unison/wiki/Troubleshooting"><i class="material-icons left text-maincolor">build</i><b>Troubleshooting</b></a></li>
+				<li><a href="https://codeberg.org/Project-Unison/Project-Unison/wiki/Changelog"><i class="material-icons left text-maincolor">change_circle</i><b>Server Changelog</b></a></li>
+				<li><a href="https://codeberg.org/Project-Unison/Project-Unison/wiki/Map-Rotation"><i class="material-icons left text-maincolor">map</i><b>Map Rotation</b></a></li>
+				<li><a href="https://discord.gg/3zMk4vn"><i class="bi bi-discord left text-maincolor"></i><b>TF2C Official Discord</b></a></li>
+			</ul>
+		</div>
+	</nav>
+    <ul class="sidenav black" id="navbar">
+        <li><a href="https://codeberg.org/Project-Unison/Project-Unison/wiki/Troubleshooting"><i class="material-icons white-text">build</i><b class="white-text">Troubleshooting</b></a></li>
+		<li><a href="https://codeberg.org/Project-Unison/Project-Unison/wiki/Changelog"><i class="material-icons white-text">change_circle</i><b class="white-text">Server Changelog</b></a></li>
+		<li><a href="https://codeberg.org/Project-Unison/Project-Unison/wiki/Map-Rotation"><i class="material-icons white-text">map</i><b class="white-text">Map Rotation</b></a></li>
+		<li><a href="https://discord.gg/3zMk4vn"><i class="bi bi-discord white-text"></i><b class="white-text">TF2C Official Discord</b></a></li>
+    </ul>
+    <img src="../img/logo.svg" width="500"></img>
+
+    <h1>Welcome to Project Unison</h1>
+    <p>Project Unison is the project of community-made servers set in Team Fortress/Half-Life Universe aiming to be alternatives of Valve's Team Fortress 2 and Blizzard's Overwatch 2.</p>
+	<p>This server uses <a class="link-color" href="https://codeberg.org/Project-Unison/Fusion-Custom-Weapons"><u>Fusion Custom Weapons</u></a>, a modification of Reagy's <a class="link-color" href="https://github.com/Reagy/TF2Classic-KO-Custom-Weapons"><u>KO Custom Weapons</u></a>. If you are having issue with assets(e.g. Red ERROR, purple textures, etc.), <a class="link-color" href="https://codeberg.org/Project-Unison/Project-Unison/wiki/Troubleshooting"><u>follow this step</u></a>.</p>
+    <h1 class="mt-4">Things to follow</h2>
+    <p>1. Pornographic, gory, death-depicting, or any such abusive contents (e.g. sprays, profile pictures, nicknames) are not allowed.</p>
+    <p>2. Hateful, bigoted slurs, racism, doxxing, harassment or any words that could offend other mercenaries are not allowed.</p>
+    <p>3. Impersonation of other players, including staff members are discouraged.</p>
+    <p>4. Advertising other communities that are not affilated with Project Unison are not allowed. Simply posting a link for reference is okay!</p>
+	<p>5. Do NOT post URL shorteners/malicious links that would lead other mercenaries at risk.</b>
+    <p>6. Cheating, using third party mod that gives unfair advantage, or exploiting server's system are not allowed.</p>
+    <h1 class="mt-4">Join our Community</h2>
+    <p>Join our Project Unison #servers at <a class="link-color" href="https://discord.gg/3zMk4vn"><u>TF2C official discord server</u></a> for more information and status.</p>
+    <h1 class="mt-4">Support us</h2>
+    <p>Click on the button below to help us keep the server running! Donation is optional, but always appreciated.</p>
+    <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Project Unison', '#6c79da', 'N4N618TVB');kofiwidget2.draw();</script> 
+    <footer class="page-footer black" style="background-color: rgba(255, 255, 255, 1);">
+        <div class="footer-copyright">
+            <div class="container"><b>
+                Copyright © 2023 <a class="link-color" href="https://roonmoonlight.carrd.co"><u>Roon</u></a>.
+                This server is NOT affiliated with Valve Corporation, Eminoma, Blizzard Entertainment.
+            </b></div>
+        </div>
+    </footer>
+</body>
+</html>
